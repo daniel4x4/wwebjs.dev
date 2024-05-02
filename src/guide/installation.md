@@ -1,29 +1,29 @@
 ---
-lang: en-US
+lang: fr-CI
 title: Installation
-description: Installation guide for node.js and whatsapp-web.js
+description: Guide d’installation pour node.js et whatsapp-web.js
 ---
 
 # {{ $frontmatter.title }}
 
-Before getting started with whatsapp-web.js, it's essential for you to install [Node.js](#installing-node-js) and [whatsapp-web.js](#installing-whatsapp-web-js) itself on your machine. Please note that whatsapp-web.js v1 requires Node v18 or higher.
+Avant de commencer à utiliser whatsapp-web.js, il est essentiel d’installer [Node.js](#installing-node-js) et [whatsapp-web.js](#installing-whatsapp-web-js) sur votre machine. Veuillez noter que whatsapp-web.js v1 nécessite Node v18 ou une version ultérieure.
 
-::: tip
-To check if you already have Node installed on your machine, run `node -v` in your **terminal**. If the output is `v18` or higher, then you're good to go! Otherwise you should continue reading.
+::: pourboire
+Pour vérifier si Node est déjà installé sur votre machine, exécutez 'node -v' dans votre **terminal**. Si la sortie est 'v18' ou plus, alors vous êtes prêt à partir ! Sinon, vous devriez continuer à lire.
 
-::: warning
-If you already have Node installed, but you are using an older version that is below v18, you need to upgrade your Node version too. You can do this by installing the [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+::: avertissement
+Si vous avez déjà installé Node, mais que vous utilisez une version antérieure à la v18, vous devez également mettre à niveau votre version de Node. Vous pouvez le faire en installant la commande [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 :::
 
 ## Installing Node.js
 
 ### Installation on Windows
 
-Installing Node on Windows works just like any other program. 
+L’installation de Node sur Windows fonctionne comme n’importe quel autre programme. 
 
-1. Download any [version above 18+](https://nodejs.org/) from the official Node.js website.
-2. After the download is complete, open the downloaded file and follow the installer steps.
-3. Once the installation is complete, you can use Node.js and npm in your terminal.
+1. Téléchargez n’importe quelle [version supérieure à 18+](https://nodejs.org/) à partir du site officiel de Node.js.
+2. Une fois le téléchargement terminé, ouvrez le fichier téléchargé et suivez les étapes du programme d’installation.
+3. Une fois l’installation terminée, vous pouvez utiliser Node.js et npm dans votre terminal.
 
 ### Installation on macOS
 
